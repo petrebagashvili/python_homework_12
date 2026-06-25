@@ -2,9 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eventflow</title>
+    <link rel="stylesheet" href="./CSS/stiles.css">
 </head>
 <body>
+   <div class="container">
+        <div class="card">
+            <h2>Login</h2>
 
+            <input type="email" id="loginEmail" placeholder="Email">
+
+            <input type="password" id="loginPassword" placeholder="Password">
+
+            <button onclick="login()">
+                Login
+            </button>
+        </div>
+
+        <div id="msg"></div>
+
+   </div>
+   <script src="JS/auth.js"></script>
 </body>
 </html>

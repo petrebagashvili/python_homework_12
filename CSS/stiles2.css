@@ -1,0 +1,150 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+
+header{
+    background:linear-gradient(
+        90deg,
+        #4f46e5,
+        #06b6d4
+    );
+
+    color:white;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:500;
+}
+
+nav a:hover{
+    opacity:.8;
+}
+
+
+.gallery-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.gallery-item {
+    width: 40%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #dddddd;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+.gallery-item h6 {
+    font-size: 20px;
+    margin: 15px 0 10px 0;
+}
+.animation-section {
+    text-align: center;
+    padding: 5px;
+    background-color: #eaeaea;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.animation-section h6 {
+    font-size: 22px;
+}
+
+.animated-box {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c;
+    margin: 20px auto;
+    animation: moveAndColor 4s infinite linear;
+}
+@keyframes moveAndColor {
+    0% {
+        background-color: #e74c3c;
+        transform: rotate(0deg);
+    }
+    50% {
+        background-color: #f1c40f;
+        transform: rotate(180deg);
+    }
+    100% {
+        background-color: #e74c3c;
+        transform: rotate(360deg);
+    }
+}
+
+.logout-btn{
+
+    background:#ef4444;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    margin-top:20px;
+}
+
+.logout-btn:hover{
+    opacity:.9;
+}
+footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-links p {
+    margin: 5px 0;
+}
+
+.social-icons a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}

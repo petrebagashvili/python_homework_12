@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f7fb;
+}
+
+header{
+    background:linear-gradient(90deg,#4f46e5,#06b6d4);
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
+.container{
+    width:90%;
+    max-width:900px;
+    margin:60px auto;
+}
+
+.card{
+    background:rgba(255,255,255,0.15);
+    backdrop-filter: blur(15px);
+    border:1px solid rgba(255,255,255,0.2);
+
+
+    padding:30px;
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+    color:white;
+}
+
+.card h1{
+    text-align:center;
+    margin-bottom:25px;
+    color:blue;
+}
+
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:rgba(255,255,255,0.1);
+
+    padding:15px;
+    margin:10px 0;
+
+    border-radius:12px;
+
+    transition:0.3s;
+}
+
+.item:hover{
+    transform:scale(1.02);
+    background:rgba(255,255,255,0.2);
+}
+
+.item span{
+    font-weight:bold;
+    color:blue;
+
+
+}
+
+.item a{
+    color:blue;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.item a:hover{
+    text-decoration:underline;
+    color:red;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contact-info, .contact-form {
+    width: 45%;
+    background-color: #ffffff;
+    padding: 30px;
+    border: 1px solid #cccccc;
+}
+
+.contact-info h6, .contact-form h6 {
+    font-size: 22px;
+    margin-top: 0;
+}
+
+.pseudo-input {
+    width: 90%;
+    height: 100px;
+    border: 2px dashed #999999;
+    padding: 10px;
+    background-color: #fafafa;
+    color: #888888;
+}
+
+.submit-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: #1abc9c;
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-links p {
+    margin: 5px 0;
+}
+
+.social-icons a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}

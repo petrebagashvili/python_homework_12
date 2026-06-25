@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    margin:0;
+    font-family:Arial;
+    background:#f4f7fb;
+}
+
+header{
+    background:linear-gradient(90deg,#4f46e5,#06b6d4);
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+header a{
+    color:white;
+    margin-left:15px;
+    text-decoration:none;
+}
+.hobby-main {
+    padding: 40px;
+    text-align: center;
+}
+
+.hobby-content {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+.hobby-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.hobby-images img {
+    width: 22%;
+    margin: 1%;
+    border: 3px solid #2c3e50;
+}
+
+footer {
+    background-color: #34495e;
+    color: #ffffff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.footer-logo h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.footer-links p {
+    margin: 5px 0;
+}
+
+.social-icons a {
+    color: #1abc9c;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #ffffff;
+}
